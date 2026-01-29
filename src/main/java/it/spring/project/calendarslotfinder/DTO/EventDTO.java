@@ -11,6 +11,7 @@ public class EventDTO {
     private LocalDateTime startTime;
     private LocalDateTime endTime;
 
+    //Costruttori
     public EventDTO() {
     }
 
@@ -24,7 +25,6 @@ public class EventDTO {
 
 
     //Getters & Setters
-
 
     public Long getId() {
         return id;

@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+//REST Controller per trovare gli slot liberi
 @RestController
 @RequestMapping("/availability")
 public class AvailabilityController {

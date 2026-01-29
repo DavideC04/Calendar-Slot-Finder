@@ -3,14 +3,18 @@ package it.spring.project.calendarslotfinder.DTO;
 import java.time.LocalDateTime;
 
 public class SlotDTO {
+
+    //Attributi
     private LocalDateTime start;
     private LocalDateTime end;
 
+    //Costruttore
     public SlotDTO(LocalDateTime start, LocalDateTime end) {
         this.start = start;
         this.end = end;
     }
 
+    //Getters & Setters
     public LocalDateTime getStart() {
         return start;
     }

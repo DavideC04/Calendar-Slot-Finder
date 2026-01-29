@@ -16,6 +16,7 @@ public class AvailabilityDTO {
     private LocalDateTime workEnd;
     private List<BreaksDTO> breaks;
 
+    //Costruttore
     public AvailabilityDTO(List<Long> userIds, LocalDateTime from, LocalDateTime to, int duration, int buffer, int results, LocalDateTime workStart, LocalDateTime workEnd, List<BreaksDTO> breaks) {
         this.userIds = userIds;
         this.from = from;
