@@ -11,14 +11,14 @@ per uno o più utenti, tenendo conto di:
 
 ## Modello dei dati
 Il sistema utilizza i seguenti oggetti principali:
-1.Event
+### Event
  - id: identificativo univoco
  - userId: identificativo dell’utente
  - title: titolo dell’evento
  - startTime: data e ora di inizio
  - endTime: data e ora di fine
 
- 2.Availability (input)
+ ### Availability (input)
  - userIds: lista di utenti coinvolti
  - from: inizio intervallo di ricerca
  - to: fine intervallo di ricerca
@@ -29,11 +29,11 @@ Il sistema utilizza i seguenti oggetti principali:
  - workEnd: fine orario lavorativo
  - breaks: lista di pause
 
- 3.Break
+ ### Break
  - startBreak: inizio pausa
  - endBreak: fine pausa
 
- 4.Slot (output)
+ ### Slot (output)
  - start: inizio slot disponibile
  - end: fine slot disponibile
 
