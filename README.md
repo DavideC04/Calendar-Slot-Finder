@@ -12,30 +12,30 @@ per uno o più utenti, tenendo conto di:
 ## Modello dei dati
 Il sistema utilizza i seguenti oggetti principali:
 Event
-    - id: identificativo univoco
-    - userId: identificativo dell’utente
-    - title: titolo dell’evento
-    - startTime: data e ora di inizio
-    - endTime: data e ora di fine
+ - id: identificativo univoco
+ - userId: identificativo dell’utente
+ - title: titolo dell’evento
+ - startTime: data e ora di inizio
+ - endTime: data e ora di fine
 
  Availability (input)
-    - userIds: lista di utenti coinvolti
-    - from: inizio intervallo di ricerca
-    - to: fine intervallo di ricerca
-    - duration: durata richiesta dello slot (in minuti)
-    - buffer: minuti aggiuntivi prima e dopo ogni evento
-    - results: numero massimo di slot restituiti
-    - workStart: inizio orario lavorativo
-    - workEnd: fine orario lavorativo
-    - breaks: lista di pause
+ - userIds: lista di utenti coinvolti
+ - from: inizio intervallo di ricerca
+ - to: fine intervallo di ricerca
+ - duration: durata richiesta dello slot (in minuti)
+ - buffer: minuti aggiuntivi prima e dopo ogni evento
+ - results: numero massimo di slot restituiti
+ - workStart: inizio orario lavorativo
+ - workEnd: fine orario lavorativo
+ - breaks: lista di pause
 
  Break
-    - startBreak: inizio pausa
-    - endBreak: fine pausa
+ - startBreak: inizio pausa
+ - endBreak: fine pausa
 
  Slot (output)
-    - start: inizio slot disponibile
-    - end: fine slot disponibile
+ - start: inizio slot disponibile
+ - end: fine slot disponibile
 
 
 ## Come funziona
